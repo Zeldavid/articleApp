@@ -28,6 +28,8 @@ form.form:after {
 
 .ui.grid.posts {
   margin-top: 2em;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .meta {
@@ -47,3 +49,8 @@ ul.ui.list li:before {
   width: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+  h1.ui.header {
+    font-size: 1.2rem;
+  }
+}

@@ -16,6 +16,10 @@ export class AppComponent {
       new Article('React', 'https://angular.io/', 10),
       new Article('View', 'https://angular.io/', 5)
     ];
+
+    enum Role {Employee, Manager, Admin};
+    var role: Role = Role.Manager;
+    console.log(Role[0]);
   }
 
   addArticle(title: HTMLInputElement, link: HTMLInputElement): boolean {
